@@ -1,4 +1,60 @@
-img {
-    width: 50%; /* Set the width to 50% of the parent container */
-    height: auto;
-}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    color: #555;
+  }
+  
+  h3 {
+    color: #777;
+  }
+  
+  /* Class Selector */
+  .section-title {
+    color: #666;
+    text-decoration: underline;
+  }
+  
+  /* ID Selector */
+  #partners {
+    font-style: italic;
+  }
+  
+  /* List styling */
+  ul,
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Image styling */
+  img {
+    width: 75%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+  
+  /* Background color */
+  section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Box Shadow */
+  section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Example of element and class selector combined */
+  section h2.section-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
